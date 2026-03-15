@@ -1,0 +1,100 @@
+/* ==================== COURSES PAGE ==================== */
+.courses-page-section {
+  padding: 60px 0 90px;
+}
+
+.courses-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.search-wrap {
+  position: relative;
+  max-width: 420px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 13px 16px 13px 42px;
+  border-radius: 50px;
+  border: 1.5px solid var(--border);
+  background: var(--white);
+  font-size: 0.92rem;
+  color: var(--text-dark);
+  outline: none;
+  transition: border-color 0.25s;
+}
+
+.search-input:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(201,146,42,0.12);
+}
+
+.cat-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.cat-pill {
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  background: var(--white);
+  color: var(--text-mid);
+  border: 1.5px solid var(--border);
+  cursor: pointer;
+  transition: all 0.22s;
+}
+
+.cat-pill:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.cat-pill.active {
+  background: var(--navy);
+  color: var(--white);
+  border-color: var(--navy);
+}
+
+.results-count {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-bottom: 28px;
+}
+
+.results-count strong { color: var(--navy); }
+
+.courses-page-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--text-light);
+  font-size: 1rem;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  border: 1.5px dashed var(--border);
+}
+
+@media (max-width: 1200px) { .courses-page-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 900px)  { .courses-page-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px)  { .courses-page-grid { grid-template-columns: 1fr; } }
