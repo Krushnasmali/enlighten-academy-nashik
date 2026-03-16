@@ -36,19 +36,12 @@
 .logo-icon {
   width: 44px;
   height: 44px;
-  background: var(--gold);
   border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 1.3rem;
-  box-shadow: 0 4px 14px rgba(201,146,42,0.4);
+  object-fit: contain;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.2);
 }
 
 .logo-text {
-  display: flex;
-  flex-direction: column;
   line-height: 1.2;
 }
 
@@ -57,13 +50,6 @@
   font-weight: 700;
   font-size: 1.1rem;
   color: var(--white);
-}
-
-.logo-sub {
-  font-size: 0.65rem;
-  color: rgba(255,255,255,0.55);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 /* Nav Links */
@@ -277,5 +263,12 @@
   .navbar-links { display: none; }
   .navbar-auth  { display: none; }
   .hamburger    { display: flex; }
+  .logo-icon {
+    width: 36px;
+    height: 36px;
+  }
+  .logo-main {
+    font-size: 1rem;
+  }
   /* Mobile menu handled by .open class */
 }

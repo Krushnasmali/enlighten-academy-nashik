@@ -78,32 +78,37 @@ export default function Footer() {
             <ul className="footer-contact">
               <li>
                 <FaMapMarkerAlt />
-                <span>123, Shivaji Nagar, Pune, Maharashtra — 411005</span>
+                <span>Shramik Nagar, Near Manahdev Mandir, Satpur, Nashik - 422012</span>
               </li>
               <li>
                 <FaPhone />
-                <a href="tel:+912012345678">+91 20 1234 5678</a>
+                <a href="tel:+911234567892">+91 1234567893</a>
               </li>
               <li>
                 <FaEnvelope />
-                <a href="mailto:info@vidyamandir.edu.in">info@vidyamandir.edu.in</a>
+                <a href="mailto:enlightenacademy@gmail.com">enlightenacademy@gmail.com</a>
               </li>
             </ul>
 
             {/* Map */}
             <div className="footer-map">
-              <iframe
-                title="Institute Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.265588856342!2d73.85674!3d18.52043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c07f4b39cf6d%3A0x6b9c4c1a0a2c3f19!2sShivaji%20Nagar%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
-                allowFullScreen
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.957202899209!2d73.7081371685776!3d19.996658299859345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddec56f523a153%3A0x7ffa92ecac612e68!2sENLIGHTEN%20ACADEMY!5e0!3m2!1sen!2sin!4v1773637163092!5m2!1sen!2sin"
+                allowfullscreen
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
             </div>
           </div>
         </div>
       </div>
+      {/* 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.957202899209!2d73.7081371685776!3d19.996658299859345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddec56f523a153%3A0x7ffa92ecac612e68!2sENLIGHTEN%20ACADEMY!5e0!3m2!1sen!2sin!4v1773637163092!5m2!1sen!2sin" 
+allowfullscreen 
+loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
 
+ */}
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
           <p>© {new Date().getFullYear()} Vidya Mandir Institute of Excellence. All rights reserved.</p>

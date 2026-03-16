@@ -1,6 +1,11 @@
-# Mobile Navbar Fix - TODO
+# Logo Update Task Progress
 
-## Steps (Vite React project):
-- [x] 1. Update Navbar.css: Replace mobile-menu styles with position:fixed, display:none -> flex on open, transform slide-down animation, z-index 1001. ✅
-- [x] 2. Test: Run `npm run dev`, inspect responsive (<1024px), verify hidden initially, opens above banner on click. ✅
-- [x] 3. Completion: attempt_completion with demo command. ✅
+## Approved Plan Steps:
+- [x] Create TODO.md
+- [ ] Update public/favicon.svg with new logo SVG (skipped due to tool issue)
+- [x] Update src/components/Navbar.jsx (replace icon with img, update text to "Enlighten Academy")
+- [x] Update src/components/Navbar.css (style .logo-icon, adjust text/mobile responsiveness)
+- [x] Test with `npm run dev`
+- [ ] Verify favicon/responsiveness
+- [ ] attempt_completion
+

@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import { FaBars, FaTimes, FaChevronDown, FaGraduationCap } from 'react-icons/fa'
+import { FaBars, FaTimes, FaChevronDown } from 'react-icons/fa'
 import './Navbar.css'
+import logo from '../images/logo.png'
 
 const navLinks = [
   { label: 'Home', path: '/' },
@@ -53,10 +54,9 @@ export default function Navbar() {
       <div className="navbar-inner">
         {/* Logo */}
         <Link to="/" className="navbar-logo">
-          <div className="logo-icon"><FaGraduationCap /></div>
+          <img src={logo} alt="Enlighten Academy" className="logo-icon" />
           <div className="logo-text">
-            <span className="logo-main">Vidya Mandir</span>
-            <span className="logo-sub">Institute of Excellence</span>
+            <span className="logo-main">Enlighten Academy</span>
           </div>
         </Link>
 
