@@ -18,7 +18,7 @@ export default function Login() {
           <div className="auth-panel-content">
             <div className="auth-logo">
               <div className="auth-logo-icon"><FaGraduationCap /></div>
-              <span>Vidya Mandir</span>
+              <span>Enlighten Academy</span>
             </div>
             <h1>Welcome Back!</h1>
             <p>Log in to access your courses, track your progress, and stay connected with your teachers.</p>

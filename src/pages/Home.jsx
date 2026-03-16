@@ -82,7 +82,7 @@ const activities = [
 ]
 
 const testimonials = [
-  { name: 'Priya Sharma', grade: 'Class XII Topper', photo: 'https://i.pravatar.cc/80?img=47', text: 'Vidya Mandir gave me the foundation I needed to score 98% in boards and secure admission to IIT Bombay.', stars: 5 },
+  { name: 'Priya Sharma', grade: 'Class XII Topper', photo: 'https://i.pravatar.cc/80?img=47', text: 'Enlighten Academy gave me the foundation I needed to score 98% in boards and secure admission to IIT Bombay.', stars: 5 },
   { name: 'Arjun Mehta',  grade: 'JEE Advanced Qualifier', photo: 'https://i.pravatar.cc/80?img=12', text: 'The teachers here are absolutely dedicated. Their personalised attention made all the difference for my JEE preparation.', stars: 5 },
   { name: 'Sneha Patil',  grade: 'Class X Student', photo: 'https://i.pravatar.cc/80?img=32', text: 'The co-curricular activities alongside academics shaped me into a well-rounded student. I love coming to school here!', stars: 5 },
 ]
@@ -154,7 +154,7 @@ export default function Home() {
               A Legacy of Learning & Achievement
             </h2>
             <p className="about-para">
-              Founded in 1985, Vidya Mandir has been a beacon of quality education in Pune.
+              Founded in 1985, Enlighten Academy has been a beacon of quality education in Pune.
               We believe every child has unique potential, and our role is to discover and nurture it
               through expert teaching, modern facilities, and a caring environment.
             </p>
@@ -180,7 +180,7 @@ export default function Home() {
         <div className="container">
           <div className="section-heading" data-aos="fade-up">
             <span className="section-label">See It Live</span>
-            <h2 className="section-title">Inside Vidya Mandir</h2>
+            <h2 className="section-title">Inside Enlighten Academy</h2>
             <p className="section-subtitle">Get a glimpse of our classrooms, events, and the vibrant student life at our institute.</p>
           </div>
           <div className="videos-grid">
@@ -209,7 +209,7 @@ export default function Home() {
       <section className="section activities-preview">
         <div className="container">
           <div className="section-heading" data-aos="fade-up">
-            <span className="section-label">Life at Vidya Mandir</span>
+            <span className="section-label">Life at Enlighten Academy</span>
             <h2 className="section-title">Activities & Events</h2>
             <p className="section-subtitle">We celebrate learning in every form — academic, cultural, and athletic.</p>
           </div>
@@ -266,7 +266,7 @@ export default function Home() {
         <div className="container cta-inner" data-aos="fade-up">
           <div className="cta-text">
             <h2>Ready to Begin Your Journey?</h2>
-            <p>Join thousands of students who have transformed their futures at Vidya Mandir.</p>
+            <p>Join thousands of students who have transformed their futures at Enlighten Academy.</p>
           </div>
           <div className="cta-buttons">
             <Link to="/register" className="btn-primary">Enroll Now</Link>

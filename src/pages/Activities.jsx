@@ -65,7 +65,7 @@ const activities = [
   {
     id: 11, title: 'Inter-School Debate', category: 'Academic',
     date: 'December 2024',
-    description: 'Students from 20 schools competed in English & Hindi debates. Vidya Mandir won Best Team and Best Speaker awards.',
+    description: 'Students from 20 schools competed in English & Hindi debates. Enlighten Academy won Best Team and Best Speaker awards.',
     image: 'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=600&q=80',
   },
   {

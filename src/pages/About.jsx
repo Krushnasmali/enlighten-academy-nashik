@@ -12,7 +12,7 @@ const team = [
 ]
 
 const milestones = [
-  { year: '1985', event: 'Vidya Mandir founded by Dr. Anita Kulkarni with 40 students' },
+  { year: '1985', event: 'Enlighten Academy founded by Dr. Anita Kulkarni with 40 students' },
   { year: '1995', event: 'First batch achieves 100% board exam pass rate' },
   { year: '2002', event: 'Campus expansion — new science labs and sports complex' },
   { year: '2010', event: 'Recognised as Best Educational Institute in Pune by State Govt.' },
@@ -26,7 +26,7 @@ export default function About() {
     <main className="page-wrapper">
       <div className="page-hero">
         <div className="page-hero-content">
-          <h1>About Vidya Mandir</h1>
+          <h1>About Enlighten Academy</h1>
           <p>A legacy of learning, excellence, and values since 1985.</p>
           <div className="breadcrumb">Home <span>/</span> About</div>
         </div>
@@ -41,7 +41,7 @@ export default function About() {
               Building Futures, One Student at a Time
             </h2>
             <p>
-              Vidya Mandir was born from a simple belief: every child deserves access to
+              Enlighten Academy was born from a simple belief: every child deserves access to
               world-class education in a nurturing environment. Founded in 1985 by Dr. Anita
               Kulkarni in a single-room classroom with 40 students, we have grown into one of
               Maharashtra's most respected educational institutions, serving over 3,500 students
@@ -91,7 +91,7 @@ export default function About() {
               },
               {
                 icon: <FaStar />, title: 'Our Values',
-                text: 'Integrity in all we do. Empathy in how we teach. Excellence in what we achieve. Inclusivity in who we serve. These values guide every decision at Vidya Mandir.',
+                text: 'Integrity in all we do. Empathy in how we teach. Excellence in what we achieve. Inclusivity in who we serve. These values guide every decision at Enlighten Academy.',
               },
             ].map((m, i) => (
               <div key={m.title} className="mvv-card" data-aos="fade-up" data-aos-delay={i * 100}>

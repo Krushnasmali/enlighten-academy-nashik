@@ -1,18 +1,19 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import { FaChevronLeft, FaChevronRight, FaPlay } from 'react-icons/fa'
+import banner1 from '../images/banner1.png';
 import './Banner.css'
 
 const slides = [
-  {
-    id: 1,
-    image: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1600&q=80',
-    label: 'Welcome to Vidya Mandir',
-    title: 'Shaping Tomorrow\'s Leaders Today',
-    subtitle: 'A premier institution committed to holistic education, academic excellence, and character development since 1985.',
-    cta1: { label: 'Explore Courses', to: '/courses' },
-    cta2: { label: 'Watch Video', to: '#video' },
-  },
+    {
+      id: 1,
+      image: banner1,
+      label: 'Welcome to Enlighten Academy',
+      title: 'Shaping Tomorrow\'s Leaders Today',
+      subtitle: 'A premier institution committed to holistic education, academic excellence, and character development since 1985.',
+      cta1: { label: 'Explore Courses', to: '/courses' },
+      cta2: { label: 'Watch Video', to: '#video' },
+    },
   {
     id: 2,
     image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=80',

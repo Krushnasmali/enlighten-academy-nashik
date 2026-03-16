@@ -34,7 +34,7 @@ export default function Register() {
           <div className="auth-panel-content">
             <div className="auth-logo">
               <div className="auth-logo-icon"><FaGraduationCap /></div>
-              <span>Vidya Mandir</span>
+              <span>Enlighten Academy</span>
             </div>
             <h1>Join Our Community</h1>
             <p>Register today and become part of a 3,500+ strong family of learners, achievers, and future leaders.</p>

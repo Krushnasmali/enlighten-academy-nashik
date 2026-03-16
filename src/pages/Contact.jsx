@@ -118,7 +118,7 @@ export default function Contact() {
       {/* Map */}
       <section className="map-section">
         <iframe
-          title="Vidya Mandir Location"
+          title="Enlighten Academy Location"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.265588856342!2d73.85674!3d18.52043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c07f4b39cf6d%3A0x6b9c4c1a0a2c3f19!2sShivaji%20Nagar%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
           allowFullScreen
           loading="lazy"

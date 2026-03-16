@@ -33,7 +33,7 @@ export default function Footer() {
             <div className="footer-logo">
               <div className="footer-logo-icon"><FaGraduationCap /></div>
               <div>
-                <div className="footer-logo-main">Vidya Mandir</div>
+                <div className="footer-logo-main">Enlighten Academy</div>
                 <div className="footer-logo-sub">Institute of Excellence</div>
               </div>
             </div>
@@ -111,7 +111,7 @@ referrerpolicy="no-referrer-when-downgrade">
  */}
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
-          <p>© {new Date().getFullYear()} Vidya Mandir Institute of Excellence. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Enlighten Academy Institute of Excellence. All rights reserved.</p>
           <div className="footer-bottom-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Use</a>

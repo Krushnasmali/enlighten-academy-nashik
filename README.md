@@ -1,4 +1,4 @@
-# Vidya Mandir — Educational Institute Website
+# Enlighten Academy — Educational Institute Website
 
 A complete, modern React.js frontend for an educational institute. Built with Vite, Framer Motion, AOS animations, and a clean Navy + Gold design system.
 
@@ -96,7 +96,7 @@ Search for `images.unsplash.com` URLs in the JSX files and replace with your own
 In `Contact.jsx` and `Footer.jsx`, find the `<iframe>` with `maps.google.com/maps/embed` and replace the `src` with your own embed URL from [Google Maps](https://maps.google.com).
 
 ### Update Institute Details
-- Name, address, phone, email → search for "Vidya Mandir" and "Pune" across all files
+- Name, address, phone, email → search for "Enlighten Academy" and "Pune" across all files
 - Course data → edit the arrays in `Courses.jsx` and `Home.jsx`
 - Team members → edit the `team` array in `About.jsx`
 
@@ -127,4 +127,4 @@ In `Home.jsx`, find the videos array and replace the `id` values with your YouTu
 
 ---
 
-Built with ❤️ for Vidya Mandir Institute of Excellence.
+Built with ❤️ for Enlighten Academy Institute of Excellence.

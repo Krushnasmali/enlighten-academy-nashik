@@ -1,11 +1,7 @@
-# Logo Update Task Progress
+# Banner Image Fix Task
 
-## Approved Plan Steps:
-- [x] Create TODO.md
-- [ ] Update public/favicon.svg with new logo SVG (skipped due to tool issue)
-- [x] Update src/components/Navbar.jsx (replace icon with img, update text to "Enlighten Academy")
-- [x] Update src/components/Navbar.css (style .logo-icon, adjust text/mobile responsiveness)
-- [x] Test with `npm run dev`
-- [ ] Verify favicon/responsiveness
-- [ ] attempt_completion
+## Steps:
+- [x] Step 1: Edit Banner.jsx with image import and path fix
+- [ ] Step 2: Verify display (npm run dev)
+- [ ] Step 3: Complete task
 
